@@ -21,13 +21,13 @@ Hanzi Harvester allows the user to choose a .txt document in Chinese and quickly
 
 ### 1. File Sorter
 
-File Sorter is a boiled down version of File Hoarder Fiesta, the "acclaimed" C++ app I made last week to clean up my screenshots. Simply pick the directory you want to clean up, and it will quickly move all of the files that contain "Screenshot" into a folder called Images in the same directory.
+File Sorter is a boiled down version of [File Hoarder Fiesta](https://github.com/jbecker7/FileHoarderFiesta), the "acclaimed" C++ app I made last week to clean up my screenshots. Simply pick the directory you want to clean up, and it will quickly move all of the files that contain "Screenshot" into a folder called Images in the same directory.
 
 ## Videos Menu 
 
 ### 1. Video Markdown
 
-Video Markdown is also an improved version of a C++ app I have made in the last week lol. Choose the directory where you store your video files and it will quickly generate a convenient markdown to-do list called `video_queue.md`
+Video Markdown is an improved version of [VQ2M](https://github.com/jbecker7/VideoQueue2Markdown/tree/main), another small a C++ app I have made in the last week lol. Choose the directory where you store your video files and it will quickly generate a convenient markdown to-do list called `video_queue.md`
 
 ## Misc Menu
 
