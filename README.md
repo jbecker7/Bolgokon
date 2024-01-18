@@ -33,7 +33,7 @@ Video Markdown is also an improved version of a C++ app I have made in the last 
 
 ### 1. (Show/Hide) Card Search
 
-Card Search is pretty cool, though I admit it does not really fit the theme of this application per se haha. I have been playing Yu-Gi-Oh Duel Links recently, and it can be a pain to go and Google the effects of cards and whatnot, so I added this nifty feature to search cards. I couldn't have done it without the [YGOPRODeck API](https://ygoprodeck.com/api-guide/)or this great [C++ JSON library](https://json.nlohmann.me/). I am kind of proud of the suggestions feature--you can type in a term like "Dark" and it will give you all the cards containing "Dark" so you can figure out which specific card you wanted to search for and type its name in.
+Card Search is pretty cool, though I admit it does not really fit the theme of this application per se haha. I have been playing Yu-Gi-Oh Duel Links recently, and it can be a pain to go and Google the effects of cards and whatnot, so I added this nifty feature to search cards. I couldn't have done it without the [YGOPRODeck API](https://ygoprodeck.com/api-guide/) or this great [C++ JSON library](https://json.nlohmann.me/). I am kind of proud of the suggestions feature--you can type in a term like "Dark" and it will give you all the cards containing "Dark" so you can figure out which specific card you wanted to search for and type its name in.
 
 
 
