@@ -110,10 +110,10 @@ def hh():
         run_in_thread([HH_PATH, file])
 
 
+# I am leaving these debugging statements in for now because this one can be volatile
 def run_cpp_search_in_thread(search_term):
     def target():
         command = [CS_PATH, search_term]
-        print(f"Executing command: {command}")  # Debugging statement
         try:
             result = subprocess.run(command, capture_output=True, text=True, check=True)
             output = result.stdout
@@ -193,14 +193,6 @@ output_text.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 # Add search functionality in the GUI
 search_frame = tk.Frame(top_bar)
 search_frame.pack(side=tk.TOP, pady=10)
-
-# # Search entry field
-# search_entry = tk.Entry(search_frame, width=30)
-# search_entry.pack(side=tk.LEFT, padx=5)
-
-# # Search button
-# search_button = tk.Button(search_frame, text="Card Search", command=cs)
-# search_button.pack(side=tk.LEFT, padx=5)
 
 
 app.mainloop()
